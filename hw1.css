@@ -1,0 +1,24 @@
+body{
+
+   background-color: pink;
+}
+
+
+a:link {
+    color:black;  
+}
+
+a:visited {
+  color: green;
+}
+
+
+a:hover{
+    color: red;
+}
+
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
