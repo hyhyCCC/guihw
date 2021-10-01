@@ -1,0 +1,120 @@
+/*This hw2 is not too bad
+All we need to do just change the css so that 
+we can get the web as homewrok require.
+
+yicheng huang
+yicheng_huang@student.uml
+*/
+
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+/*simpe change of body from the pdf shows
+use the prtbackground.jpg to finish the background with the 
+right size*/
+body {
+
+	background-color:#00569f;
+   	background-image: url(ptrbackground.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+/*main area with 80% and mini 600px*/
+#wrapper{
+	background-color: lightblue;
+	margin: auto;
+	width: 80%;
+	min-width: 600px;
+
+}
+/* detials for the link*/ 
+
+nav ul {
+	font-weight: bolder;
+	font-size: 1.2em;
+	list-style-type: none;
+}
+
+
+nav {
+	float: left;
+	width: 200px;
+	padding-right: 30px;
+}
+
+
+nav a {
+	color: darkblue;
+	text-decoration: none;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+
+
+/*for header in the pdf
+with image and right size and color*/
+h1 {
+	
+	background-image: url(sunset.jpg);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	color: Azure;
+	margin-bottom: 0;
+	padding: 10px;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#content img{
+	float: left;
+	padding-right: 30px;
+	
+}
+.resort{
+	font-size: larger;
+	font-weight: bolder;
+	color: SteelBlue;
+}
+
+/*get the .gif for the content.*/
+#content ul{
+
+	list-style-image: url(marker.gif);
+}
+/*get the content as shown*/
+#content{
+	margin-left: 200px;
+	background-color: white;
+	padding: 20px;
+}
+
+#contact {
+	font-size: 90%;
+	
+}
+dt {
+	color: #000033;
+}
+/*detials of footer*/
+
+footer {
+	font-style: italic;
+	color:gray;
+	padding-top: 40px;
+	font-family: Georgia, "Times New Roman", serif;
+	margin-left: 200px;
+	background-color: white;
+	padding-left: 30px;
+}
